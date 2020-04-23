@@ -40,6 +40,7 @@ class bacula::client (
   Optional[Bacula::Yesno] $pki_encryption      = undef,
   Optional[String]        $pki_keypair         = undef,
   Optional[String]        $pki_master_key      = undef,
+  Optional[String]        $plugin_dir          = undef,
 ) inherits bacula {
 
   $group    = $bacula::bacula_group
